@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>哈尔滨冰雪大世界</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+<link rel="shortcut icon" type="image/png" href="../public/app/images/favicon.png" /><link rel="stylesheet" type="text/css" href="../public/bootstrap/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../public/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../public/app/css/common.css">
+<link rel="stylesheet" type="text/css" href="../public/app/css/mainNav.css">
+
+<link rel="stylesheet" type="text/css" href="../public/app/css/sub.css">
+<!--当前-->
+<link rel="stylesheet" type="text/css" href="../public/app/css/style.css"/>
+</head>
+
+<body>
+
+
+<!-- Copyright � 2005. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+
+
+<nav id="mainNav">
+	<div class="ewm-weixin" id="wx">
+		<img src="../public/app/images/ewm.jpg">
+		<span>扫描关注官方微信平台</span>
+	</div>
+	<div class="ewm-weibo" id="wb">
+		<img src="../public/app/images/ewm2.jpg">
+		<span>扫描关注官方微博</span>
+	</div>
+	<div id="nav-mask"></div>
+	<div class="nav-wrapper row">
+		<div class="nav-inner-wrapper col-md-12">
+			<div class="nav-logo"><img src="../public/app/images/mlogo.png"></div>
+			<div class="nav-right">
+				<a href="https://hrbicesnow.alitrip.com/shop/view_shop.htm?spm=a1z10.3-b.0.0.7cpqmC" target="_blank" class="to-shop"><img src="../public/app/images/tianmao.png" class="tianmao">官方购票</a>
+				<div class="ewm">
+					<i class="fa fa-weixin" role="wx"></i>
+					<i class="fa fa-weibo" role="wb"></i>
+				</div>
+			</div>
+			<ul id="nav-ul">
+				<li class="nav-item" sub-nav=''><a href="www.hrbicesnow.com/">首页</a></li>
+				<li class="nav-item" sub-nav='sub1'><a href="###">主题乐园</a></li>
+				<li class="nav-item" sub-nav=''><a href="http://www.hrbicesnow.com/park/area">全景体验馆</a></li>
+				<li class="nav-item" sub-nav=''><a href="http://www.hrbicesnow.com/park/projects">娱乐项目</a></li>
+				<li class="nav-item" sub-nav=''><a href="http://www.hrbicesnow.com/park/events">重大赛事</a></li>
+				<li class="nav-item" sub-nav=''><a href="http://www.hrbicesnow.com/park/show">冰雪秀场</a></li>
+				<li class="nav-item" sub-nav='sub2'><a href="###">新闻互动</a></li>
+				<li class="nav-item" sub-nav='sub3'><a href="###">游客中心</a></li>
+				<li class="nav-item" sub-nav='sub4'><a href="###">企业直通车</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="sub-nav sub1">
+		<ul class="sub-nav-ul">
+			<li class="sub-nav-item">
+				<a href="park/xiajiguan.html">
+					<h5>夏季馆</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="theme~aid=1.html">
+					<h5>冰筑魅力</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/theme?aid=2">
+					<h5>丝路探险</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/theme?aid=3">
+					<h5>雪耀奥运</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/theme?aid=4">
+					<h5>龙江印象</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/about">
+					<h5>乐园简介</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/history">
+					<h5>历届回顾</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="sub-nav sub2">
+		<ul class="sub-nav-ul">
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/article/news">
+					<h5>新闻中心</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/article/star">
+					<h5>明星·达人</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/about/moment">
+					<h5>美图分享</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/article/video">
+					<h5>精彩视频</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/article/gonglue">
+					<h5>游园攻略</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="sub-nav sub3">
+		<ul class="sub-nav-ul">
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s1">
+					<h5>运营时间</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s2">
+					<h5>票务政策</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s3">
+					<h5>游客服务中心</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s4">
+					<h5>滑雪中心</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s5">
+					<h5>餐饮服务</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s6">
+					<h5>冰雪商城</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s7">
+					<h5>交通指南</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s8">
+					<h5>常见问题</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="sub-nav sub4">
+		<ul class="sub-nav-ul">
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/about/company">
+					<h5>企业简介</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/about/honor">
+					<h5>企业荣誉</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/about/obj">
+					<h5>主营项目</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/invest">
+					<h5>招商合作</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/contact">
+					<h5>联系我们</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav><!--景区标题-->
+<div class="jq_bt" style="margin-top:71px;"  id="th1">
+<div class="text">
+<h3>冰筑丝路 雪耀龙疆</h3>
+<p>第十七届中国·哈尔滨冰雪大世界以“冰筑丝路，雪耀龙江”为主题。设计概念源于“一带一路”的宏伟构想，结合“龙江丝路带”，以丝路文化为出发点。园区总体分为四大主题区：冰筑魅力区、丝路探险区、雪耀奥运区、龙疆印象区。整体设计利用场地空间特质，突破以往格局，打造功能结构最完整、空间层次最立体、体验活动最丰富的园区。通过“一轴四环”的结构，诠释场地本源特质，通过交通流线与功能布局的统筹，将观赏与活动合理地融入到场地之中，实现一种景观与娱乐、文化与产业的无间融合。</p>
+</div>
+</div>
+<!--content-->
+<div class="content content_w">
+
+<div class="jq jq_1" style="background:url(/public/app/images/wb/ztjq_1.png) no-repeat 56px 28px;">
+<h4 ><img src="../public/app/images/wb/01.png"/><span>冰筑魅力区</span></h4>
+<div class="jq_nav">
+<div class="a-intro" style="width:42%; line-height: 1.8; font-size: 12px;">
+	冰筑魅力区为主要冰建展示区。绵延起伏的冰峰形象大门，象征着漂浮在海面上的冰山。是地球的史诗，刺破了深夜中平淡的天际线，在入园处展现着科技与自然的和谐。魅力主塔， 以丝绸为概念，运用参数化非线性的设计手法，实现了一种刚与柔、力与美的结合。创造了冰雪景观的新里程，建设工艺的复杂多样又一次挑战了冰雪建筑的极限。每一次怦然心动的光影变换，每一次色彩的更迭，都将冰雪大世界推向一个又一个荣耀颠峰。<br><br>
+	冰酷欧陆、童话王国、梦幻时空、热舞撒哈拉、天耀中华五大冰雪景观簇拥在魅力主塔四周，集中展现冰雪建筑的艺术之美；重现唐代遗韵的千寻塔，再现“皇家园寺”的辉煌；用冰雪还原三大奇塔之一的应县木塔，气势磅礴；雪域佛国展现佛教文化魅力，洗尽铅华始见真；十七个图腾柱簇拥着天际丝路，记录着冰雪的传奇，今宵哈尔滨冰雪大世界璀璨耀眼！绽放着灿烂的心情，铸造着华美的永恒！<br><br>
+	
+</div>
+<div style="margin-top: 10px;">
+<span style="color:#018BD2;">热门景点：</span>冰酷欧陆，冰炫童话，梦幻时空，热舞撒哈拉，天耀中华，魅力主塔，雪域佛国<br>
+<span style="color:#018BD2;">国际赛事：</span>第三十届中国·哈尔滨国际冰雕比赛、2015哈尔滨国际LED冰雪景观艺术创新设计大赛
+</div>
+<ol class="area1">
+<li><img src="../public/app/images/wb/jq_01_1.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_01_2.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_01_3.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_01_4.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_01_5.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_01_6.jpg"/></li>
+</ol>
+</div>
+
+<div class="jq jq_2" style="background:url(/public/app/images/wb/ztjq_2.png) no-repeat center 40px;" id="th2">
+<h4><img src="../public/app/images/wb/02.png"/><span>丝路探险区</span></h4>
+<div class="jq_nav">
+<div class="a-intro" style="width:25%; line-height: 1.8; font-size: 12px;">
+	登上园区北侧的雪山，到达丝路探险区。立于山顶，璀璨夺目的冰雕艺术区，精彩纷呈的雪上表演，尽收眼底。该区拥有经典的山地雪圈，全新引进的刺激的U型槽，花样繁复的单板表演，共同欢迎着冰山上的来客。<br><br>
+颇具规模的文旅滑雪场具有丰富刺激的雪道组合，让游客体验畅快淋漓的急速快感。历届最长的冰滑梯，带你横越320米的距离，感受皑皑白雪上的速度与激情。首次引进的绚丽光廊，如一条融汇了梦幻色彩，变幻莫测的时光隧道，将各园区有机连接。<br><br>
+快乐的冰城人创造着冰雪的动感。梦在飞旋，心，也飞旋。
+
+</div>
+<div style="margin-top: 10px;">
+<span style="color:#018BD2;">冰雪show：</span>U型槽，冰雪艺术宫<br>
+<span style="color:#018BD2;">冰雪大趴：</span>龙疆冰鼓舞台<br>
+<span style="color:#018BD2;">Hot娱乐：</span>欢乐雪圈，滑雪场，320米冰滑梯
+</div>
+</div>
+<ol class="area2" style="margin-top: 40px;">
+<li><img src="../public/app/images/wb/s21.jpg"/></li>
+<li><img src="../public/app/images/wb/s22.jpg"/></li>
+<li><img src="../public/app/images/wb/s23.jpg"/></li>
+<li><img src="../public/app/images/wb/s24.jpg"/></li>
+<li><img src="../public/app/images/wb/s25.jpg"/></li>
+<li><img src="../public/app/images/wb/s26.jpg"/></li>
+</ol>
+</div>
+
+<div class="jq jq_3" style="background:url(/public/app/images/wb/ztjq_3.png) no-repeat center 40px;" id="th3">
+<h4><img src="../public/app/images/wb/03.png"/><span>雪耀奥运区</span></h4>
+<div class="jq_nav">
+<div class="a-intro" style="width:78%; line-height: 1.8; font-size: 12px;">
+	徉于冰雕雪塑间，一半感受着温情浪漫、独具神韵的冰雪世界，一半体验着天寒地冻、冰天雪地中火一般的激情。园区着力打造“冰雪嘉年华”，最新设置了摇摆冰滑车、滑冰助手、能量单车、滚雪桶、七彩滑板等共二十余项冰雪娱乐活动，让游客尽情体验冰雪娱乐的魅力。
+</div>
+<div style="margin-top: 10px;">
+<span style="color:#018BD2;">热门景点：</span>雪雕万里长城、冰雪娱乐项目<br>
+<span style="color:#018BD2;">Hot娱乐：</span>摇摆冰滑车、冰爬犁、冰上自行车、冰壶等<br>
+<span style="color:#018BD2;">国际赛事：</span>第五届中国·哈尔滨国际组合冰雕比赛
+</div>
+</div>
+<ol class="area3">
+<li><img src="../public/app/images/wb/jq_03_1.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_03_2.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_03_3.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_03_4.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_03_5.jpg"/></li>
+<li></li>
+</ol>
+</div>
+
+<div class="jq jq_4" style="background:url(/public/app/images/wb/ztjq_4.png) no-repeat center 40px;" id="th4">
+<h4><img src="../public/app/images/wb/04.png"/><span>龙疆印象区</span></h4>
+<div class="jq_nav">
+<div class="a-intro" style="width:80%; line-height: 1.8; font-size: 12px;">
+	挖掘地脉语言，感受寒地特色。东北木屋打造雪乡景观，不同场景展现龙江地域文化，尽情体验寒地黑土的生活情趣。<br><br>本届冰雪大世界首次将俄罗斯雅库茨克主题园引入园区，品味俄式建筑的魅力，让游客仿佛置身于冰天雪地的俄罗斯街头，零距离感受扑面而来的异域风情。
+</div>
+<div style="margin-top: 10px;">
+<span style="color:#018BD2;">Hot娱乐：</span>滑冰、滑雪<br>
+<span style="color:#018BD2;">冰雪show：</span>极地冬泳、俄罗斯雅库茨克主题园
+</div>
+</div>
+<ol class="area4">
+<li><img src="../public/app/images/wb/jq_04_1.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_04_2.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_04_3.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_04_4.jpg"/></li>
+<li><img src="../public/app/images/wb/jq_04_5.jpg"/></li>
+<li></li>
+</ol>
+</div>
+
+<div class="jq jq_5" style="background:url(/public/app/images/wb/ztjq_5.png) no-repeat center 40px;" id="th5">
+<h4><img src="../public/app/images/wb/05.png"/><span>综合服务区</span></h4>
+<div class="jq_nav">
+	<div class="a-intro" style="width:40%; line-height:180%; font-size: 12px; margin-top: 10px;">
+		园内东侧设有专门的客服中心。为游客提供导游服务、急救设施、提供广播寻人寻物、失物招领、物品寄存、游客投诉等全面服务，该区域也是园区餐饮服务集中区，解决了游客在游玩中的各种需求。
+	</div>
+</div>
+<ol class="area4">
+<li><img src="../public/app/images/wb/zonghe1.jpg"/></li>
+<li><img src="../public/app/images/wb/zonghe2.jpg"/></li>
+<li><img src="../public/app/images/wb/zonghe3.jpg"/></li>
+<li><img src="../public/app/images/wb/zonghe4.jpg"/></li>
+<li><img src="../public/app/images/wb/zonghe5.jpg"/></li>
+<li></li>
+</ol>
+</div>
+
+
+</div>
+	</div>
+<div class="page-containter">
+	<!-- <div class="bloc bgc-blue-ncs d-bloc" id="bloc-6">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					园区
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">关于哈尔滨冰雪节</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">2015年冰雪大世界</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					历届回顾
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">2014年冰雪大世界</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">2013年冰雪大世界</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					资讯
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">冰雪大世界新闻</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">最新通知</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					合作
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">园区招商项目</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">媒体合作</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					服务
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">园区地图</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">票务信息</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					联系
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">集团联系方式</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">合作洽谈</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bloc" id="bloc-8" style="background: #333; color:#fff;">
+	<div class="container bloc-lg" style="padding:50px;">
+		<div class="col-sm-12 col-md-8 col-md-offset-2">
+			<h3 class="text-center ">
+				关注我们
+			</h3>
+			<p class="text-center">
+				扫描下方二维码，关注“冰雪大世界”官方微信公众账号
+			</p>
+			<p class="text-center">
+				<img src="../public/app/images/ewm.jpg" width="120" alt="">
+				<img src="../public/app/images/ewm2.jpg" width="120" alt="">
+			</p>
+		</div>
+	</div>
+</div> -->
+
+<div class="new-footer">
+	<h6>&copy; 2015 哈尔滨冰雪大世界四季乐园股份有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;<a href="###">黑ICP备16007346号-1</a></h6>
+	<p>COPYRIGHT HARBIN ICE AND SNOW WORLD PARK LIMITED BY SHARE LTD ALL RIGHTS RESERVED.</p>
+	<p>地址：哈尔滨市松北区太阳岛西侧&nbsp;&nbsp;&nbsp;&nbsp;综合部电话：0451-58561403&nbsp;&nbsp;&nbsp;&nbsp;经营部电话：0451-58561401
+</p>
+	<div class="other">
+		<div class="lgkj">
+			<span>support by</span>
+			<img src="../public/app/images/lgkj.jpg"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257050850'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1257050850%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+		</div>
+		<div class="social">
+			<a href="###"><i class="fa fa-wechat"></i></a>
+			<a href="###"><i class="fa fa-weibo"></i></a>
+			<a href="###"><i class="fa fa-qq"></i></a>
+		</div>
+	</div>
+</div></div>
+	
+<script src="../public/jquery/jquery.min.js"></script>
+<script src="../public/app/js/mainNav.js"></script>
+<script type="text/javascript">
+	$("i[role='wx']").hover(function(){
+		$('#wx').toggle(400);
+	})
+	$("i[role='wb']").hover(function(){
+		$('#wb').toggle(400);
+	})
+</script><script type="text/javascript">
+	$(function(){
+	 		 		var p = 1;
+	 	
+	 	if(p){
+	 		var obj = $('#th'+p);
+	 		$('html,body').animate({
+	 			scrollTop:obj.offset().top-76
+	 		},500);
+	 	}
+	 })
+</script>
+</body>
+</html>

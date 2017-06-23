@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>哈尔滨冰雪大世界</title>
+	<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+<link rel="shortcut icon" type="image/png" href="../public/app/images/favicon.png" />	<link rel="stylesheet" type="text/css" href="../public/bootstrap/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../public/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../public/app/css/common.css">
+<link rel="stylesheet" type="text/css" href="../public/app/css/mainNav.css">
+
+	<link rel="stylesheet" type="text/css" href="../public/app/css/parkArea.css">
+	<style>
+		#mainVideo{ width:1000px; height:625px; position: absolute; left:50%; margin-left: -500px; top:560px;}
+		#view-btn{position: absolute; width:200px; height:40px; line-height: 40px; top:540px; left:50%; margin-left: -100px; text-align: center;}
+		#view-btn a{border:#40B2C4 solid 1px; border-radius: 5px; display: block; width:200px; height:40px; color:#40B2C4; text-decoration: none;}
+	</style>
+</head>
+<body>
+
+
+<!-- Copyright � 2005. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+
+
+
+	<nav id="mainNav">
+	<div class="ewm-weixin" id="wx">
+		<img src="../public/app/images/ewm.jpg">
+		<span>扫描关注官方微信平台</span>
+	</div>
+	<div class="ewm-weibo" id="wb">
+		<img src="../public/app/images/ewm2.jpg">
+		<span>扫描关注官方微博</span>
+	</div>
+	<div id="nav-mask"></div>
+	<div class="nav-wrapper row">
+		<div class="nav-inner-wrapper col-md-12">
+			<div class="nav-logo"><img src="../public/app/images/mlogo.png"></div>
+			<div class="nav-right">
+				<a href="https://hrbicesnow.alitrip.com/shop/view_shop.htm?spm=a1z10.3-b.0.0.7cpqmC" target="_blank" class="to-shop"><img src="../public/app/images/tianmao.png" class="tianmao">官方购票</a>
+				<div class="ewm">
+					<i class="fa fa-weixin" role="wx"></i>
+					<i class="fa fa-weibo" role="wb"></i>
+				</div>
+			</div>
+			<ul id="nav-ul">
+				<li class="nav-item" sub-nav=''><a href="http://www.hrbicesnow.com/">首页</a></li>
+				<li class="nav-item" sub-nav='sub1'><a href="###">主题乐园</a></li>
+				<li class="nav-item" sub-nav=''><a href="http://www.hrbicesnow.com/park/area">全景体验馆</a></li>
+				<li class="nav-item" sub-nav=''><a href="http://www.hrbicesnow.com/park/projects">娱乐项目</a></li>
+				<li class="nav-item" sub-nav=''><a href="http://www.hrbicesnow.com/park/events">重大赛事</a></li>
+				<li class="nav-item" sub-nav=''><a href="http://www.hrbicesnow.com/park/show">冰雪秀场</a></li>
+				<li class="nav-item" sub-nav='sub2'><a href="###">新闻互动</a></li>
+				<li class="nav-item" sub-nav='sub3'><a href="###">游客中心</a></li>
+				<li class="nav-item" sub-nav='sub4'><a href="###">企业直通车</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="sub-nav sub1">
+		<ul class="sub-nav-ul">
+			<li class="sub-nav-item">
+				<a href="xiajiguan.html">
+					<h5>夏季馆</h5>
+					<div class="nav-pic" style="background:url(public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/theme?aid=1">
+					<h5>冰筑魅力</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/theme?aid=2">
+					<h5>丝路探险</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/theme?aid=3">
+					<h5>雪耀奥运</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/theme?aid=4">
+					<h5>龙江印象</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/about">
+					<h5>乐园简介</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/park/history">
+					<h5>历届回顾</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="sub-nav sub2">
+		<ul class="sub-nav-ul">
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/article/news">
+					<h5>新闻中心</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/article/star">
+					<h5>明星·达人</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/about/moment">
+					<h5>美图分享</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/article/video">
+					<h5>精彩视频</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/article/gonglue">
+					<h5>游园攻略</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="sub-nav sub3">
+		<ul class="sub-nav-ul">
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s1">
+					<h5>运营时间</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s2">
+					<h5>票务政策</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s3">
+					<h5>游客服务中心</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s4">
+					<h5>滑雪中心</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s5">
+					<h5>餐饮服务</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s6">
+					<h5>冰雪商城</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s7">
+					<h5>交通指南</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/service/s8">
+					<h5>常见问题</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="sub-nav sub4">
+		<ul class="sub-nav-ul">
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/about/company">
+					<h5>企业简介</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/about/honor">
+					<h5>企业荣誉</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/about/obj">
+					<h5>主营项目</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/invest">
+					<h5>招商合作</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+			<li class="sub-nav-item">
+				<a href="http://www.hrbicesnow.com/contact">
+					<h5>联系我们</h5>
+					<div class="nav-pic" style="background:url(/public/app/images/nav/s1-1.jpg);"></div>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>	<div>
+		<div style="background: url(../public/app/images/bx.jpg) no-repeat center top; height:3533px; text-align: cetner; position: relative;">
+			<video src="http://www.hrbicesnow.com/public/app/video/3m.mp4" autoplay="true" controls="false" id="mainVideo"></video>
+			<div id="view-btn"><a href="http://720yun.com/t/e0a23qauycn?pano_id=858214">查看360全景</a></div>
+		</div>
+	</div>
+	<!-- <div class="bloc bgc-blue-ncs d-bloc" id="bloc-6">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					园区
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">关于哈尔滨冰雪节</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">2015年冰雪大世界</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					历届回顾
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">2014年冰雪大世界</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">2013年冰雪大世界</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					资讯
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">冰雪大世界新闻</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">最新通知</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					合作
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">园区招商项目</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">媒体合作</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					服务
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">园区地图</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">票务信息</a>
+			</div>
+			<div class="col-sm-2">
+				<h3 class="mg-md">
+					联系
+				</h3><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">集团联系方式</a><a href="http://www.hrbicesnow.com/park/index.html" class="a-btn a-block">合作洽谈</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bloc" id="bloc-8" style="background: #333; color:#fff;">
+	<div class="container bloc-lg" style="padding:50px;">
+		<div class="col-sm-12 col-md-8 col-md-offset-2">
+			<h3 class="text-center ">
+				关注我们
+			</h3>
+			<p class="text-center">
+				扫描下方二维码，关注“冰雪大世界”官方微信公众账号
+			</p>
+			<p class="text-center">
+				<img src="../public/app/images/ewm.jpg" width="120" alt="">
+				<img src="../public/app/images/ewm2.jpg" width="120" alt="">
+			</p>
+		</div>
+	</div>
+</div> -->
+
+<div class="new-footer">
+	<h6>&copy; 2015 哈尔滨冰雪大世界四季乐园股份有限公司 版权所有&nbsp;&nbsp;&nbsp;&nbsp;<a href="###">黑ICP备16007346号-1</a></h6>
+	<p>COPYRIGHT HARBIN ICE AND SNOW WORLD PARK LIMITED BY SHARE LTD ALL RIGHTS RESERVED.</p>
+	<p>地址：哈尔滨市松北区太阳岛西侧&nbsp;&nbsp;&nbsp;&nbsp;综合部电话：0451-58561403&nbsp;&nbsp;&nbsp;&nbsp;经营部电话：0451-58561401
+</p>
+	<div class="other">
+		<div class="lgkj">
+			<span>support by</span>
+			<img src="../public/app/images/lgkj.jpg"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257050850'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1257050850%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+		</div>
+		<div class="social">
+			<a href="###"><i class="fa fa-wechat"></i></a>
+			<a href="###"><i class="fa fa-weibo"></i></a>
+			<a href="###"><i class="fa fa-qq"></i></a>
+		</div>
+	</div>
+</div>	<script src="../public/jquery/jquery.min.js"></script>
+<script src="../public/app/js/mainNav.js"></script>
+<script type="text/javascript">
+	$("i[role='wx']").hover(function(){
+		$('#wx').toggle(400);
+	})
+	$("i[role='wb']").hover(function(){
+		$('#wb').toggle(400);
+	})
+</script></body>
+</html>

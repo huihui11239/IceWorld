@@ -1,0 +1,40 @@
+
+
+body,ul,li{
+	margin:0; padding:0; list-style: none;
+	font-family: "Arial","Microsoft YaHei";
+	font-size: 14px;
+	color:#333;
+	-webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-weight: normal;
+}
+a{text-decoration: none;color:#333;}
+
+
+
+.margin-ud{ margin-top:30px; margin-bottom: 30px;}
+.padding-ud{padding-top: 60px; padding-bottom: 60px;}
+
+.p-txt12{font-size: 12px; line-height: 22px; }
+.p-txt14{font-size: 14px; line-height: 24px; }
+
+.new-footer{background: #384660; color:#fff; height:200px; line-height: 50px; text-align: center; font-size: 12px; position: relative;}
+.new-footer h6{padding-top: 50px; margin-top: 0;}
+.new-footer h6 a{color:rgba(255,255,255,.4); text-align: underline;}
+.new-footer p{margin-top: -10px; color:rgba(255,255,255,.6); line-height: 22px; font-size: 12px;}
+.new-footer img{height:24px; border-radius: 3px;}
+.new-footer .other{overflow: hidden; width:320px; margin:0 auto; text-align: center;}
+.new-footer .lgkj{float:left; margin-right: 20px; opacity: .5; position: absolute; right:10px; bottom:0px;}
+.new-footer .social{margin-top: 5px;}
+.new-footer .social a i{display: block; width:40px; height:40px;line-height: 40px; font-size: 22px;}
+.new-footer .social a{display: block; width:40px; height:40px; border-radius: 50%;  color:#fff; background: rgba(0,0,0,.4);
+-webkit-transition:all 0.4s;
+margin-right: 10px;
+display: inline-block;
+}
+.new-footer .social a:hover{
+	background: #1860b2;
+
+}

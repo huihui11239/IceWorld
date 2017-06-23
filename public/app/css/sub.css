@@ -1,0 +1,198 @@
+/* Background colour styles */
+.bloc{
+	width:100%;
+	clear:both;
+	background: 50% 50% no-repeat;
+	padding:0 50px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+.bloc .container{
+	padding-left:0;
+	padding-right:0;
+}
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.bloc-xxl,.bloc-xl,.bloc-lg{
+        padding: 40px 0;
+    }
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.bgc-white{
+	background-color:rgba(255,255,255,.9);
+}
+.bgc-blue-ncs{
+	background-color:#0085BE;
+}
+.a-btn{
+	padding: 6px 10px 6px 0;
+	line-height: 1.42857143;
+	display:inline-block;
+	color:#fff;
+}
+.text-center .a-btn{
+	padding: 6px 0;
+}
+.a-btn:hover{
+	color:#fff;
+}
+.a-block{
+	width:100%;
+	text-align: left;
+}
+.bgc-verdigris{
+	background-color:#3598A0;
+}
+a{text-decoration: none !important;}
+.top-banner-point{
+	background: url(http://www.hrbicesnow.com/public/app/images/top-banner-point.jpg) no-repeat center -150px; height:250px;
+}
+.point-list-nav{border-top:#eee solid 1px;}
+.point-list-nav a{display: block; line-height: 40px; font-size: 14px; border-bottom: #eee solid 1px;}
+.point-list-nav a:hover{background: #f5f5f5;}
+.point-list-nav a.active{background: #f5f5f5;}
+.point-list-nav a span{color:#0290C6; width:40px; text-align: right; display: inline-block; margin-right: 10px;}
+
+/*park-about*/
+.park-about-1{background: url(http://www.hrbicesnow.com/public/app/images/park-about1.jpg) no-repeat center -50px; height:717px; color:#fff;}
+.park-about-1 .about-txt1{margin-top: 115px;}
+.park-about-1 .about-txt2{margin-top: 20px; font-size: 12px; width:500px; line-height: 22px;}
+.park-about-1 .about-txt1 h2{font-size: 26px; margin:10px 0px;}
+.park-about-1 .about-txt1 h3{font-size: 42px; margin:10px 0px;}
+.park-about-2 .keyword h6{font-size: 28px; color:#038EC4;  line-height: 130%; }
+.park-about-2 .keyword p{font-size: 12px; color:#038EC4; line-height: 1.5;}
+/*park-pro*/
+.park-pro-1{background: url(http://www.hrbicesnow.com/public/app/images/park-pros.jpg2) no-repeat center top; height:110px;}
+.park-pro-1 .pro-txt1{margin-top: 110px;}
+.park-pro-1 .pro-txt1 h2{font-size: 26px; color:#4eafff;; text-align: center;}
+.park-pro-1 .pro-txt1 p{font-size: 12px; line-height: 24px; color:#656565; text-align: center;}
+.park-pro-2{margin-top: -103px;}
+.park-pro-2 img{width:100%;}
+.park-pro-2 .pro-pic {position: relative;}
+.park-pro-2 .pro-pic span{display: block; width:100%; height:40px; background: rgba(0,0,0,.5); color:#fff; font-size: 12px; line-height: 40px; position: absolute; bottom: 0px; text-align: center;}
+.park-pro-2 .group-title{background:#1B3872; color:#fff; padding:10px 0px;}
+.park-pro-2 .group-title h4{ font-size: 24px; text-align: center; margin:0px;}
+.park-pro-2 .group-title p{ font-size: 12px; text-align: center; margin-top: 10px}
+.park-pro-2 .group-body{background: #fff; padding-left:40px; padding-right: 40px; margin-bottom: 60px;}
+.park-pro-2 .list-pic{ }
+.park-pro-2 .list-txt h2{font-size: 18px; margin-top: 0px;}
+.park-pro-2 .list-txt p{font-size: 12px; margin-top: 0px; line-height: 22px;}
+.park-pro-2 .pro-item{border-bottom: #eee solid 1px; padding-bottom: 20px; margin-bottom: 20px;}
+
+.style-blue{background: #0290C6; color:#fff;}
+.style-white{background: #fff; color:#333;}
+.style-orange{background: #F39700; color:#fff;}
+.part{overflow: hidden;}
+
+.full-page-container{margin-top: 71px;}
+.saishi .pic{width:50%; height:360px; overflow: hidden;}
+.saishi .txt{width:50%; padding:20px; height:320px; overflow: hidden;}
+.saishi img{width:100%;}
+
+.show .bg1{background: url(http://www.hrbicesnow.com/public/app/images/show_bg1.jpg) no-repeat center top; background-size: cover;}
+.show .bg2{background: url(http://www.hrbicesnow.com/public/app/images/show_bg2.jpg) no-repeat center top; background-size: cover;}
+.show .bg3{background: url(http://www.hrbicesnow.com/public/app/images/show_bg3.jpg) no-repeat center top; background-size: cover;}
+.show-title{color: #fff; width:1050px; margin:0 auto;}
+.show-blocks{width:1050px; margin:60px auto; color:rgba(255,255,255,.7);}
+.show-blocks .block-row{clear: both; position: relative; min-height: 260px; margin-bottom: 4px;}
+.show-blocks .block{width:260px; height:260px; float:left; position: absolute; background-repeat: no-repeat; background-size: cover;}
+.show-blocks .block.block-txt{width:259px; height:259px;}
+.show-blocks .block-1{ left:0px;}
+.show-blocks .block-2{ left:264px;}
+.show-blocks .block-3{ left:528px;}
+.show-blocks .block-4{ left:792px;}
+.show-blocks .col-2{width:524px; height:524px;}
+.show-blocks .col-2.block-txt{width:523px; height:523px;}
+.show-blocks .block-txt .txt h4{ font-weight: bold; color:#f5f6f6; line-height: 130%;}
+
+.show-blocks .block-txt{background: none; border:#575567 solid 1px; color:rgba(255,255,255,.6);}
+.show-blocks .block-txt .txt{width:90%; height:90%; margin:0 auto; margin-top: 20px;}
+.show-blocks .block-txt:hover{background:#575567;}
+.show-blocks .block-txt .txt h4{font-size: 16px;}
+.show-blocks .block-txt .txt p{font-size: 12px; line-height: 20px;}
+.show .more{width:1050px; margin:0 auto;}
+.show .more .title{font-size: 16px; line-height: 24px; margin-bottom: 10px;}
+.show .more .pic{width:100%; height:200px; background-repeat: no-repeat; background-size: cover;}
+.show .more .txt{font-size: 12px; line-height: 22px; margin-top: 20px;}
+.show .more-left{float:left; width:30%;}
+.show .more-middle{float:left; width:30%; margin-left: 53px;}
+.show .more-right{float:right; width:30%; }
+
+.con_contact{width:980px; margin:0 auto; overflow: hidden;}
+.contact-banner{width:980px; height:270px; margin:0 auto; margin-top: 71px; background: url(http://www.hrbicesnow.com/public/app/images/contact-banner.jpg) no-repeat center top;}
+.contact-banner h3{color:#fff; font-size: 42px; text-align: center; padding-top: 50px;}
+.contact-banner hr{border:none; height:1px; width:600px; background: rgba(255,255,255,.5); margin:0 auto;}
+.contact-banner span{margin:0 auto; text-align: center; display: block; width:500px; color:#fff; line-height: 22px; font-size: 12px; padding:0 0; margin-top: 20px;}
+
+.contact-warpper{background: #fff; border:#eee solid 1px; width:980px; padding:60px 40px; margin:0 auto; overflow: hidden; margin-bottom: 40px;}
+.contact-block{width:295px; float: left; text-align: center;}
+.contact-block i{width:80px; height:80px; border: #ccc solid 1px; line-height: 80px; font-size: 40px; border-radius: 50%; text-align: center;}
+.contact-block p{padding:0 !important; margin:0; text-align: center !important; line-height: 18px !important; margin-top: 20px; font-size: 12px;}
+
+.service-item{clear: both; margin-bottom:20px; overflow: hidden;}
+.service-pic {height:240px; width:50%;}
+.service-pic img{width:100%;}
+.service-txt {font-size: 12px; background:#eee; line-height: 22px; height:240px; width:50%; padding:40px;}
+
+.qa-warpper{width:800px; margin:0 auto;}
+.qa-group{ margin-bottom: 40px;}
+.q-group{overflow: hidden; clear: both;}
+.a-group{overflow: hidden; clear:both; margin-top: 20px;}
+.q-av {border-radius: 5px; float:left; background: #fff; border:#eee solid 1px;}
+.q-av img{width:50px; height:50px; border-radius: 5px;}
+.a-av {border-radius: 5px; float:right; background: #fff; border:#eee solid 1px;}
+.a-av img{width:50px; height:50px;}
+.qa-group .q{background: #eee; color:#000; padding:10px 20px; border-radius: 4px; max-width:60%; margin-left: 20px; float:left; position: relative;}
+.qa-group .a{background: #7fa900; color:#fff; padding:10px 20px; border-radius: 4px; width:60%; float:right; margin-right: 20px; position: relative;}
+.qa-group .q .aleft{
+	width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid #eee;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left:-10px;
+}
+.qa-group .a .aright{
+	width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #7fa900;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    right:-10px;
+}
+
+.snav-wrapper{text-align: center; background:#fff; border:#eee solid 1px; margin: 50px 0px;}
+.snav{display: inline-block; text-align: center;}
+.snav li{display: inline-block;}
+.snav li a{display: block; width:100px; height:120px; text-align: center; font-size: 14px; padding-top: 33px; color:#acacac;}
+.snav li a i{font-size: 32px;display: block;}
+.snav li a:hover,.snav li a.active{background:#1391D3; color:#fff;}
+
+.s-content.wrapp{
+	background:#fff; border:#eee solid 1px; overflow: hidden;
+}
+.tk-nav{float:left; margin-left: 50px; margin-top: 50px;}
+.tk-nav li{width:160px; height:60px; border-bottom: #eee solid 1px; line-height: 60px; text-align: center; cursor: pointer;}
+.tk-nav li:hover, .tk-nav li.active{background: #FFD95E; color:#fff;}
+.tk-wrapper{float:right; position: relative; overflow:hidden; width:919px; height:467px; background:url(http://www.hrbicesnow.com/public/app/images/service/images/ser-tk-bg.png) no-repeat left top; margin-right: 40px; margin-top: 40px; margin-bottom: 50px;}
+.tk-wrapper .tk-item{width:750px; height:320px; margin-top: 60px; margin-left: 80px; position: absolute;}
+.tk-wrapper .tk-item h5{font-size: 26px; margin-bottom: 20px}
+.tk-wrapper .tk-item p{ line-height:180%;}
+
+.s-wrapper{ width:100%; height:490px; position: absolute; top:0px;}
+.s-item{position: absolute; }
+.s-item .s-a{display: block; width:100px; height:100px; border-radius: 50px; border:#CACACA solid 2px; background: #fff; text-align: center; color:#CACACA; cursor: pointer;}
+.s-item .s-a:hover{background: #1391D3; color:#fff; border:#fff solid 2px;}
+.s-item .s-a i{font-size: 38px; display: block; margin-top: 14px; color:#CACACA;}
+.s-item .s-a:hover i{color:#fff;}
+.s-item .s-tip{position: absolute; background: #1391D3; color:#fff; border-radius: 6px; padding:10px; bottom:104px; width:230px; left:-70px; display:none; text-align: center;}
+
+
